@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box{
+    width: 290px;
+    height: 100vh;
+    border-radius: 0px 50px 0px 0px;
+    background: black;
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    position: fixed;
+    position: absolute;
+    left: 0;
+}
+
+.tep h3{
+    color: white;
+}
+
+.past h3{
+    color: white;
+}
+
+.past{
+    position: absolute;
+    top: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+.raw h3{
+    position: absolute;
+    top: 10px;
+}
+
+.yon{
+    position: absolute;
+    left: 300px;
+}
+
+.orta{
+    position: absolute;
+    top: 480px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 0px;
+}
+
+.container{
+    display: flex;
+}
+
+.bos{
+    padding: 50px;
+}
+
+.chiz{
+    border: 1px dashed gray;
+    Width:315px;
+    Height:184px;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+
+.cards{
+    display: flex;
+    margin-top: -50px;
+}
+
+.chiz img{
+    margin-top: 50px;
+    margin-left: 95px;
+}
+
+.qism{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.table{
+    margin-left: 50px;
+    margin-top: -30px;
+}
