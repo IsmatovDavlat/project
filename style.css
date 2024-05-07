@@ -60,22 +60,24 @@
     padding: 50px;
 }
 
-.chiz{
+.box2{
     border: 1px dashed gray;
     Width:315px;
     Height:184px;
     border-radius: 5px;
-    margin-top: 27px;
+    margin-top: -50px;
+    margin-left: 50px;
 }
 
-.cards{
+/* .cards{
     display: flex;
     margin-top: -50px;
-}
+} */
 
-.chiz img{
+.box2 button{
     margin-top: 50px;
     margin-left: 95px;
+    border-radius: 10px;
 }
 
 .qism{
@@ -87,4 +89,84 @@
 .table{
     margin-left: 50px;
     margin-top: -30px;
+}
+
+
+.box button{
+    width: 100px;
+    height: 40px;
+    background: rgb(3, 3, 3);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+}
+
+.container2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    top: 120px;
+    position: absolute;
+    background: rgba(23, 255, 31, 0.911);
+    margin-left: 560px;
+    display: none;
+}
+.container2 button{
+    width: 150px;
+    height: 35px;
+    top: -10px;
+    display:  block;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 87, 210);
+    color: white;
+    margin-left: 100px;
+}
+
+.container2 input{
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container2 .close_Btn{
+    width: 50px;
+    color: red;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.box2 button{
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+    animation: login .4s ease-in-out;
+}
+
+@keyframes login{
+    from {
+        position: absolute;
+        top: -200px;
+    }
+    to {
+        position: absolute;
+        top: 20%;
+    }
 }
