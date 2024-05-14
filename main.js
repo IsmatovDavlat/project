@@ -23,7 +23,7 @@ const btn2 = document.querySelector(".btn2")
 
 const data = [
   
-  {id: 1, name : "Davlat", last : "Ismatov", kurs : "front-end",  datasi : "Jan", status: "done"},
+  {id: 1, name : "Davlat", last : "Ismatov", kurs : "front-end",  datasi : "Jan", status: "done", delet: "o'chirish"},
   {id: 2, name : "Davlat", last : "Ismatov", kurs : "front-end",  datasi : "Jan", status: "done"},
   {id: 3, name : "Davlat", last : "Ismatov", kurs : "front-end",  datasi : "Jan", status: "done"},
   {id: 4, name : "Davlat", last : "Ismatov", kurs : "front-end",  datasi : "Jan", status: "done"},
@@ -47,6 +47,7 @@ data.forEach(element => {
   <td>${element.kurs}</td>
   <td>${element.datasi}</td>
   <th>${element.status}</th>
+  <td><button>${element.delet}</button></td>
 </tr>
   `
 });

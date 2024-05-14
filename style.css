@@ -94,7 +94,7 @@
     position: absolute;
     top: 400px;
     left: 40px;
-    width: 800px;
+    width: 850px;
 }
 
 
@@ -204,4 +204,8 @@
 
 .inp input{
     padding-left: 20px;
+}
+
+.table_tbody button{
+    border-radius: 5px;
 }
