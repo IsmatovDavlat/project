@@ -1,0 +1,23 @@
+@media screen and (max-width: 760px){
+    .box{
+     opacity: 0;
+    }
+
+    .container{
+        position: absolute;
+        right: 335px;
+    }
+
+    .container2 .inp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 {
+        height: 50%;
+    }
+
+    .container2 button{
+        width: 200px;
+    }
+}
