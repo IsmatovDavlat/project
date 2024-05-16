@@ -11,13 +11,26 @@
     .container2 .inp{
         display: flex;
         flex-direction: column;
+        margin-right: 400px;
     }
 
     .container2 {
         height: 50%;
     }
 
-    .container2 button{
-        width: 200px;
+    .container2 .yax button{
+        width: 100px;
+        position: absolute;
+        top: 430px;
+        /* display:  block; */
+        border: none;
+        border-radius: 8px;
+        background: rgb(238, 181, 116);
+        color: white;
+        margin-right: 100px;
+    }
+
+    .active{
+        width: 50px;
     }
 }

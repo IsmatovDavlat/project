@@ -127,7 +127,7 @@
     background: rgba(188, 197, 188, 0.911);
     display: none;
 }
-.container2 button{
+.container2 .yax button{
     width: 450px;
     height: 35px;
     position: absolute;
@@ -137,7 +137,7 @@
     border-radius: 8px;
     background: rgb(238, 181, 116);
     color: white;
-    margin-left: 50px;
+    right: 100px;
 }
 
 .container2 input{
