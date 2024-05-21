@@ -90,10 +90,10 @@
     margin-top: 160px;
 }
 
-.table{
+.tables{
     position: absolute;
     top: 400px;
-    left: 40px;
+    left: 320px;
     width: 850px;
 }
 
@@ -111,7 +111,7 @@
     left: 700px;
 }
 
-.container2{
+.container2 {
     width: 700px;
     z-index: 9999;
     height: 500px;
@@ -127,20 +127,29 @@
     background: rgba(188, 197, 188, 0.911);
     display: none;
 }
-.container2 .yax button{
+
+.container2 button{
     width: 450px;
     height: 35px;
     position: absolute;
-    top: 430px;
+    top: 450px;
     display:  block;
     border: none;
     border-radius: 8px;
     background: rgb(238, 181, 116);
     color: white;
     right: 100px;
+    cursor: pointer;
+}
+
+.container2 .inp{
+    display: flex;
+    margin-left: 200px;
 }
 
 .container2 input{
+    display: flex;
+    gap: 50px;
     margin-left: 50px;
     width: 200px;
     height: 40px;
@@ -153,8 +162,8 @@
     color: red;
     height: 50px;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: -10px;
     cursor: pointer;
     background: transparent;
 }
@@ -168,11 +177,19 @@
     animation: login .4s ease-in-out;
 }
 
-.container2 .in{
+.container2 .in {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background: rgb(248, 193, 193); */
+    /* height:500px ; */
+    /* width: 700px; */
+    border-radius: 10px;
+}
+
+.in{
+    width: 500px;
 }
 
 @keyframes login{
@@ -210,4 +227,42 @@
 tbody td button{
     color: rgb(255, 255, 255);
     background: black;
+}
+
+
+
+.container2 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 16px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }

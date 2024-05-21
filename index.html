@@ -49,43 +49,48 @@
           <div class="container2">
             
              <div class="in">
-              <br>
-              <div class="inp">
-                <input type="text" placeholder="id">
-              <br>
-              <input type="text" placeholder="Ismingiz">
-              </div>
-              <br>
-              <div class="inp">
-                <input type="text" placeholder="Familya">
-              <br>
-              <input type="text" placeholder="kurs nomi">
-              </div>
-              <br> 
-              <div class="inp">
-                <input type="text" placeholder="kuni">
-              <br>
-              <input type="text" placeholder="status">
-              </div>
-              <br>
-              <div class="yax"><button>Yuborish</button></div>
-              <button class="close_Btn">
+              <h1>User Management</h1>
+        <form id="userForm">
+            <input type="text" id="username" placeholder="Username">
+            <input type="email" id="email" placeholder="Email">
+            <button type="submit" onclick="addUser(event)">Add User</button>
+        </form>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- User data will be inserted here -->
+            </tbody>
+        </table>
+              <div class="close_Btn">
                 <i class="fa-solid fa-xmark"></i>
-              </button>   
+              </div>
+              </div>
+              
+              <br>
+              
+              <br>
+                 
              </div>
           </div>
       
           <div class="active"></div>
+          
           </div>
         </div>
   
         <div class="qism">
           <div class="bos">
-            <h3>Transactions</h3>
+            <!-- <h3>Transactions</h3> -->
           </div>
         </div>
         <div id="scroller">
-          <table class="table">
+          <table class="tables">
             <thead>
               <tr>
                 <th scope="col">#</th>
