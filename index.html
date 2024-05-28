@@ -51,22 +51,12 @@
              <div class="in">
               <h1>User Management</h1>
         <form id="userForm">
-            <input type="text" id="username" placeholder="Username">
-            <input type="email" id="email" placeholder="Email">
-            <button type="submit" onclick="addUser(event)">Add User</button>
+            <input type="text" id="username" placeholder="username">  
+            <input type="email" id="email" placeholder="surname">
+            <input type="money" id="money" placeholder="money">
+            <button type="submit" onclick="addUser(event)" class="bop">Add User</button>
         </form>
-        <table id="userTable">
-            <thead>
-                <tr>
-                    <th>Username</th>
-                    <th>Email</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- User data will be inserted here -->
-            </tbody>
-        </table>
+        
               <div class="close_Btn">
                 <i class="fa-solid fa-xmark"></i>
               </div>
@@ -90,24 +80,21 @@
           </div>
         </div>
         <div id="scroller">
-          <table class="tables">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Ism</th>
-                <th scope="col">Familya</th>
-                <th scope="col">Handle</th>
-                <th scope="col">money</th>
-                <th scope="col">date</th>
-                <th scope="col">status</th>
-                <th scope="col">O'chirish</th>
-              </tr>
-            </thead>
+            <table id="Table">
+              <thead>
+                  <tr>
+                      <th>Username</th>
+                      <th>Familya</th>
+                      <th>money</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <!-- User data will be inserted here -->
+              </tbody>
+          </table>
             <tbody id="table_tbody">
              
             </tbody>
-          </table>
-          
         </div>
         <div id="output"></div>
       </div>

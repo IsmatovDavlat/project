@@ -240,13 +240,14 @@ tbody td button{
 
 input[type="text"],
 input[type="email"],
+input[type="money"],
 button {
     margin-bottom: 10px;
     padding: 8px;
     width: calc(100% - 16px);
 }
 
-table {
+.userTable {
     width: 100%;
     border-collapse: collapse;
 }
@@ -265,4 +266,16 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+
+table{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+
+.bop{
+    position: absolute;
+    left: 70px;
 }
