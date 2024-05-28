@@ -23,12 +23,22 @@
         width: 200px;
     }
     
-    .in input{
+    .container2 .in input{
         margin-right: 300px;
+        width: 200px;
     }
+
+/* input[type="text"],
+input[type="email"],
+input[type="money"],
+button {
+    margin-bottom: 100px;
+    padding: 8px;
+    width: 150px;
+} */
     .container2 .in button{
         width: 210px;
-        position: absolute;
+        position: absolute; 
         top: 430px;
         left: 70px;
         /* display:  block; */
@@ -36,6 +46,11 @@
         border-radius: 8px;
         background: rgb(238, 181, 116);
         color: white;
+    }
+
+    .container2 .in input{
+        width: 200px;
+        margin-left: 100px;
     }
 
     .active{
