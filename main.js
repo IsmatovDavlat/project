@@ -17,7 +17,7 @@ const btn2 = document.querySelector(".btn2")
         const output = document.querySelector("#output");
         
         scroller.addEventListener("scroll", (event) => {
-          output.textContent = `scrollTop ${scroller.scrollTop}`;
+          output.textContent = scrollTop `${scroller.scrollTop}`;
         });
 
 
@@ -88,8 +88,8 @@ function deleteUser(row) {
   var email = selectedRow.cells[1].innerHTML;
  
   var users = JSON.parse(localStorage.getItem('users')) || [];
-  var updatedUsers = users.filter(function(user) {
-      return user.username !== username || user.email !== email  || user.money !== money;
+  var updatedUsers = users.filter(function(user)    {
+      return user.username !== username || user.money !== money;
   });
   localStorage.setItem('users', JSON.stringify(updatedUsers));
   

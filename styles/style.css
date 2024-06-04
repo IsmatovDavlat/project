@@ -82,7 +82,9 @@
     height: 200px;
     background: transparent;
     border: 1px dashed silver;
+    color: black;
 }
+
 
 .qism{
     display: flex;
@@ -159,7 +161,7 @@
 
 .container2 .close_Btn{
     width: 50px;
-    color: red;
+    color: rgba(255, 0, 0, 0.932);
     height: 50px;
     position: absolute;
     top: 20px;
@@ -238,9 +240,12 @@ tbody td button{
     text-align: center;
 }
 
- input[type="text"],
+input[type="text"],
 input[type="email"],
 input[type="money"],
+input[type="date"],
+input[type="frontend"],
+input[type="soat"],
 button {
     margin-bottom: 10px;
     padding: 8px;
@@ -266,14 +271,16 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #000000;
+    color: white;
 }
 
 
-table{
+Table{
     position: absolute;
     top: 400px;
     left: 350px;
+    width: 200px;
 }
 
 .bop{
